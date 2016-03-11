@@ -1,0 +1,100 @@
+* { position: relative; margin: 0; padding: 0;}
+@font-face {
+  font-family: pixelmix;
+  src: url("pixelmix.ttf");
+  font-weight: normal;
+}
+
+body {
+	font-family: pixelmix;
+	background-color: black;
+	color: #00FF00;
+	padding: 10px;
+}
+h1 {
+	color: white;
+	font-size: 2em;
+	text-align: center;
+	margin: 20px 0px;
+}
+#bookmarks {
+	border: double 7px #00FF00;
+	width: 50%;
+	margin: 10px auto;
+	padding: 10px;
+}
+li {
+	list-style-type: none;
+	margin: 4px;
+}
+ul {
+	margin-left: 20px;
+}
+
+a:link, a:visited {
+	color: white;
+	text-decoration: none;
+	padding: 3px;
+	border-bottom: solid 2px #00FF00;
+	transition: all 0.5s ease;
+}
+a:hover {
+	color: #00FF00;
+	border-color: white;
+}
+
+#addForm {
+	margin: 20px auto;
+	width: 200px;
+}
+#addForm p {
+	margin: 5px;
+}
+
+label {
+	display: block;
+}
+input {
+	border: solid 2px #00FF00;
+	color: white;
+	background-color: black;
+	font-family: pixelmix;
+	padding: 3px;
+	font-size: 0.8em;
+	width: 190px;
+}
+button {
+	border: solid 2px #00FF00;
+	color: black;
+	background-color: #00FF00;
+	font-family: pixelmix;
+	padding: 3px;
+	font-size: 0.8em;
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+button:hover {
+	background-color: white;
+	border-color: white;
+}
+#bookmarks button {
+	margin-left: 10px;
+	font-size: 0.6em;
+	padding: 2px;
+}
+
+#error {
+	font-size: 0.6em;
+	color: #FF0000;
+	margin: 10px;
+}
+
+footer {
+	font-size: 0.6em;
+	color: black;
+	background-color: #00FF00;
+	padding: 10px;
+	width: 250px;
+	text-align: center;
+	margin: 50px auto;
+}
